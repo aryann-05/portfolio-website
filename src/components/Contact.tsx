@@ -38,7 +38,7 @@ const Contact = () => {
                 <div>
                   <p className="text-gray-900 dark:text-white font-medium">Email</p>
                   <a href="mailto:your.email@example.com" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
-                    your.email@example.com
+                    aryanrajput05sep@gmail.com
                   </a>
                 </div>
               </div>
@@ -47,7 +47,7 @@ const Contact = () => {
                 <div>
                   <p className="text-gray-900 dark:text-white font-medium">Phone</p>
                   <a href="tel:+1234567890" className="text-gray-600 dark:text-gray-400 hover:text-blue-600">
-                    +1 (234) 567-890
+                    +91 9520929286
                   </a>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const Contact = () => {
                   <Github size={28} />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/aryan-kumar-99a385361?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                  href="https://www.linkedin.com/in/aryan-kumar-99a385361/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-600 dark:text-gray-400 hover:text-blue-600 transition duration-300"

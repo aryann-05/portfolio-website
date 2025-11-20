@@ -8,34 +8,33 @@ const Projects = () => {
   const projects = [
     {
       title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce website with user authentication, product management, and payment integration.',
+      description: 'This project is a basic Amazon Clone website built using HTML, CSS, and JavaScript. It includes essential e-commerce features that allow users to browse products, view individual product details, add items to the cart or wishlist, and search products by category.',
       techStack: ['React', 'Node.js', 'MongoDB', 'Stripe'],
       githubUrl: 'https://github.com/aryann-05/demo',
-      liveUrl: 'https://your-ecommerce-demo.vercel.app',
+      
       image: '/project1.jpg'
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates and team collaboration features.',
+      title: 'Excel Analytics Platform',
+      description: 'Developed a full-stack analytics platform that allows users to upload Excel files, generate 2D/3D charts, and view AI-generated insights.',
       techStack: ['Next.js', 'TypeScript', 'Prisma', 'PostgreSQL'],
       githubUrl: 'https://github.com/yourusername/task-manager',
-      liveUrl: 'https://your-taskmanager-demo.vercel.app',
+      
       image: '/project2.jpg'
     },
     {
-      title: 'AI Chatbot',
-      description: 'An intelligent chatbot powered by machine learning for customer support and information retrieval.',
+      title: 'Blogging Platform',
+      description: 'This is a full-featured Blogging Platform built using the MERN stack. The platform allows users to create, edit, view, and manage blogs, with additional features like user authentication, blog filtering, comments, likes, and an admin panel. It is designed with a clean UI, smooth animations, and efficient backend APIs.',
       techStack: ['Python', 'TensorFlow', 'Flask', 'React'],
       githubUrl: 'https://github.com/yourusername/ai-chatbot',
-      liveUrl: 'https://your-chatbot-demo.vercel.app',
+      
       image: '/project3.jpg'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'A responsive weather dashboard with location-based forecasts and interactive maps.',
+      title: 'Tic-Tac-Toe Game',
+      description: 'This is a simple and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript. The game allows two players to play against each other on the same device, with a clean and responsive interface. It includes automatic win detection, draw detection, and the ability to restart the game.',
       techStack: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
       githubUrl: 'https://github.com/yourusername/weather-dashboard',
-      liveUrl: 'https://your-weather-demo.vercel.app',
       image: '/project4.jpg'
     }
   ];
@@ -94,15 +93,6 @@ const Projects = () => {
                   >
                     <Github size={20} className="mr-2" />
                     Code
-                  </a>
-                  <a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center text-gray-600 dark:text-gray-400 hover:text-blue-600 dark:hover:text-blue-400 transition duration-300"
-                  >
-                    <ExternalLink size={20} className="mr-2" />
-                    Live Demo
                   </a>
                 </div>
               </div>
